@@ -1,0 +1,4 @@
+1. g++ -c cham.c
+   -> cham.c를 컴파일 하여 object file(cham.o)를 만듦
+
+2. g++ test.c(컴파일 시킬 main file) -o a cham.o(cham.c의 object 파일을 포함하여 compile)
